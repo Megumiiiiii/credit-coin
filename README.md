@@ -52,4 +52,12 @@ docker run -d \
 docker logs -f creditcoin-validator
 ```
 
+### Explorer
+Pilih itu
+
+<img width="839" alt="Screenshot_21" src="https://github.com/Megumiiiiii/credit-coin/assets/98658943/b11e7630-0e9c-4b46-b878-6ef38699fdb5">
+
+
+https://telemetry.creditcoin.network/#list/0xc2e43792c8acc075e564558f9a2184a0ffe9b0fd573969599eee9b647358c6cf
+
 ## Guide akan di update setelah faucet masuk
