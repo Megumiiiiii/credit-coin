@@ -82,25 +82,28 @@ docker exec -it creditcoin-validator creditcoin-cli wizard -a 14000
 
 Untuk `stash` isi dengan pharse akun pertama, dan `controller` isi dengan pharse akun kedua
 Output yang benar
-> 🧙 Running staking wizard...
 
-Using the following parameters:
 
-💰 Stash account: 5CGBosx2Fw34u9jJtSgEQkoNTtHkPLKgsfjJiE3mDSWb44MW
+>🧙 Running staking wizard...
+>
+>Using the following parameters:
+>
+>💰 Stash account: 5CGBosx2Fw34u9jJtSgEQkoNTtHkPLKgsfjJiE3mDSWb44MW
+>
+>🕹️  Controller account: 5E1tpiU3SnunxwbtvTc7U7gykNYspTZu9yqTcch2pHamAvw5
+>
+>🪙  Amount to bond: 10000 CTC
+>
+>🎁 Reward destination: Staked
+>
+>📡 Node URL: ws://127.0.0.1:9945📡 Node URL: ws://127.0.0.1:9945
+>
+>💸 Commission: 0
+>
+>🔐 Blocked: No
+>
+>Continue? (y/n): y
 
-🕹️  Controller account: 5E1tpiU3SnunxwbtvTc7U7gykNYspTZu9yqTcch2pHamAvw5
-
-🪙  Amount to bond: 10000 CTC
-
-🎁 Reward destination: Staked
-
-📡 Node URL: ws://127.0.0.1:9945
-
-💸 Commission: 0
-
-🔐 Blocked: No
-
-Continue? (y/n): y
 
 Sudah, selanjutnya cek disini https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.testnet.creditcoin.network%2Fws#/staking Jika ada addressmu, tinggal menunggu aktif.
 
