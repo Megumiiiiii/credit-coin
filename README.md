@@ -60,4 +60,52 @@ Pilih itu
 
 https://telemetry.creditcoin.network/#list/0xc2e43792c8acc075e564558f9a2184a0ffe9b0fd573969599eee9b647358c6cf
 
-## Guide akan di update setelah faucet masuk
+Jika namamu sudah ada disana = aman
+
+## Aktifkan Validator
+
+### Generate akun di vps 
+Generate 2 akun, lalu simpan pharse. Import ke polkadot.js(extension)
+
+```yml
+docker exec -it creditcoin-validator creditcoin-cli new
+```
+
+Lalu kirim token dari faucet ke akun pertama, 14600 atau berapa terserah. Dan kirim ke akun kedua 100
+
+### Lanjut stake
+
+```yml
+docker exec -it creditcoin-validator creditcoin-cli wizard -a 14000
+```
+`14000` bisa diganti berapapun, itu nominal yang akan di stake
+
+Untuk `stash` isi dengan pharse akun pertama, dan `controller` isi dengan pharse akun kedua
+Output yang benar
+> 🧙 Running staking wizard...
+
+Using the following parameters:
+
+💰 Stash account: 5CGBosx2Fw34u9jJtSgEQkoNTtHkPLKgsfjJiE3mDSWb44MW
+
+🕹️  Controller account: 5E1tpiU3SnunxwbtvTc7U7gykNYspTZu9yqTcch2pHamAvw5
+
+🪙  Amount to bond: 10000 CTC
+
+🎁 Reward destination: Staked
+
+📡 Node URL: ws://127.0.0.1:9945
+
+💸 Commission: 0
+
+🔐 Blocked: No
+
+Continue? (y/n): y
+
+Sudah, selanjutnya cek disini https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.testnet.creditcoin.network%2Fws#/staking Jika ada addressmu, tinggal menunggu aktif.
+
+#
+
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzNmZTIxZmE3ZmY3MzRiMDcwNDJhYTQ5ZmNlY2YxMWE1OWIyYmVkNSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/mVBlqOD4ra9jQiI3cC/giphy.gif" height="125" width="420"/>
+</div>
