@@ -4,6 +4,12 @@
   <img src="https://media.giphy.com/media/aXE4aGVPDs1pGcm0y4/giphy.gif" height="338" width="600"/>
 </div>
 
+## Official Links
+[Docs](https://gluwa.gitbook.io/creditcoin-pos-testnet-documentation/validator-guides?ref=creditcoin.org)
+[Discord](https://discord.gg/creditcoin)
+[Twitter](https://twitter.com/gluwa)
+[Website](https://gluwa.com)
+
 ### Install Docker (Jika belum) & Ope Port
 Port
 
