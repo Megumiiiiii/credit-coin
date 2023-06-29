@@ -92,7 +92,8 @@ docker exec -it creditcoin-validator creditcoin-cli wizard -a 14000
 `14000` bisa diganti berapapun, itu nominal yang akan di stake
 
 Untuk `stash` isi dengan pharse akun pertama, dan `controller` isi dengan pharse akun kedua
-Output yang benar
+
+Output yang benar:
 
 
 >🧙 Running staking wizard...
