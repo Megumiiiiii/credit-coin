@@ -82,7 +82,7 @@ Generate 2 akun, lalu simpan pharse. Import ke polkadot.js(extension)
 docker exec -it creditcoin-validator creditcoin-cli new
 ```
 
-Lalu kirim token dari faucet ke akun pertama, 14600 atau berapa terserah. Dan kirim ke akun kedua 100
+Lalu kirim token dari faucet lewat [Polkadotjs](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.testnet.creditcoin.network%2Fws#/accounts) ke akun pertama, 14600 atau berapa terserah. Dan kirim ke akun kedua 100
 
 ### Lanjut stake
 
