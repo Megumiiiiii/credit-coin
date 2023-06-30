@@ -22,8 +22,10 @@
 ## Official Links
 - [Docs](https://gluwa.gitbook.io/creditcoin-pos-testnet-documentation/validator-guides?ref=creditcoin.org)
 - [Discord](https://discord.gg/creditcoin)
-- [Twitter](https://twitter.com/gluwa)
-- [Website](https://gluwa.com)
+- [Twitter Gluwa](https://twitter.com/gluwa)
+- [Twitter Credit Coin](https://twitter.com/Creditcoin)
+- [Website Gluwa](https://gluwa.com)
+- [Website Credit Coin](https://creditcoin.org)
 
 #
 
