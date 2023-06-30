@@ -1,10 +1,9 @@
-# Credit Coin
 
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/aXE4aGVPDs1pGcm0y4/giphy.gif" height="338" width="600"/>
 </div>
 
-#
+
 
 <div align="center">
 
@@ -13,6 +12,12 @@
 </div>
 
 #
+
+<div align="center">
+  
+# ${\color{violet} \huge Credit \space Coin}$
+
+</div>
 
 ## Official Links
 - [Docs](https://gluwa.gitbook.io/creditcoin-pos-testnet-documentation/validator-guides?ref=creditcoin.org)
@@ -23,7 +28,7 @@
 #
 
 
-### Install Docker (Jika belum) & Ope Port
+### Install Docker (Jika belum) & Open Port
 Port
 
 ```yml
