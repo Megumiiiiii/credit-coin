@@ -19,7 +19,7 @@
   
 # ${\color{violet} NGESHARE \space DI \space CHANNEL, \space APA \space COPAS \space SERTAIN \space SUMBER \space SU}$
 
-### ${\color{violet} DIKIRA \space DIKIRA, \space BIKIN \space GINIAN \space GAK \space PERLU \space USAHA \space APA}$ 
+### ${\color{violet} DIKIRA \space BIKIN \space GINIAN \space GAK \space PERLU \space USAHA \space APA}$ 
 
 </div>
 
