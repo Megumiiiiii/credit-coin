@@ -1,3 +1,8 @@
+<div align="center">
+ 
+# Credit Coin
+
+</div>
 
 <div align="center">
 
