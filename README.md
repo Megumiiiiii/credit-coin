@@ -17,7 +17,7 @@
 
 <div align="center">
   
-# ${\color{violet} \huge Credit \space Coin}$
+# ${\color{violet} \huge NGESHARE \space DI CHANNEL, \space APA \space COPAS \space SERTAIN \space SUMBER \ SU}$
 
 </div>
 
