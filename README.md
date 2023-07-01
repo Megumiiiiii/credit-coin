@@ -17,7 +17,7 @@
 
 <div align="center">
   
-# ${\color{violet} \huge NGESHARE \space DI CHANNEL, \space APA \space COPAS \space SERTAIN \space SUMBER \ SU}$
+# ${\color{violet} NGESHARE \space DI CHANNEL, \space APA \space COPAS \space SERTAIN \space SUMBER \ SU}$
 
 </div>
 
