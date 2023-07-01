@@ -140,7 +140,7 @@ Sudah, selanjutnya cek disini https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.
 
 #### Jika ingin memberi nama ke Validator
 
-1. Pergi ke [Polkadot[(https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.testnet.creditcoin.network%2Fws#/accounts)
+1. Pergi ke [Polkadot](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.testnet.creditcoin.network%2Fws#/accounts)
 2. Pilih wallet `stash` mu
 3. Set identity dan atur display name
 <p align="left"><img height="auto" width="auto" src="https://github.com/Megumiiiiii/credit-coin/assets/98658943/dd2acb27-2eea-4076-8be6-b91e46e55e00"></p>
