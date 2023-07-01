@@ -94,7 +94,7 @@ Jika namamu sudah ada disana = aman
 ## Aktifkan Validator
 
 ### Generate akun di vps 
-Generate 2 akun, lalu simpan pharse. Import ke polkadot.js(extension)
+Generate 2 akun, lalu simpan pharse. Import ke [polkadot.js](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd)(extension)
 
 ```yml
 docker exec -it creditcoin-validator creditcoin-cli new
