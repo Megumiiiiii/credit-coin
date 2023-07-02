@@ -29,6 +29,7 @@
 - [Twitter Credit Coin](https://twitter.com/Creditcoin)
 - [Website Gluwa](https://gluwa.com)
 - [Website Credit Coin](https://creditcoin.org)
+- [Faucet](https://form.typeform.com/to/yGrtGCJO?ref=creditcoin.org)
 
 #
 
