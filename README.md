@@ -53,8 +53,7 @@ sudo apt-get update && sudo apt install jq git && sudo apt install apt-transport
 ### Buat folder untuk menampung data
 
 ```yml
-cd
-mkdir credit
+-p /var/lib/credit
 ```
 
 ### RUN!
