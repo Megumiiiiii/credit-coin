@@ -43,7 +43,7 @@ ufw allow ssh; ufw allow 30333; ufw enable
 Docker
 
 ```yml
-sudo apt update; sudo apt upgrade
+sudo apt update; sudo apt upgrade -y
 ```
 
 ```yml
