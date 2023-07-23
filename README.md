@@ -157,7 +157,7 @@ Sudah, selanjutnya cek disini https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.
 
 ```yml
 docker stop creditcoin-validator; docker rm creditcoin-validator
-gluwa/creditcoin:2.222.2-testnet
+docker rmi gluwa/creditcoin:2.222.2-testnet
 ```
 
 #
