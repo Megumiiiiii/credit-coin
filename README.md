@@ -153,7 +153,12 @@ Sudah, selanjutnya cek disini https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.
 3. Klik validate dan atur mau berapa commision rate
 <p align="left"><img height="auto" width="auto" src="https://github.com/Megumiiiiii/credit-coin/assets/98658943/4cfd09de-2a26-438f-b4dd-d90d8546d7fb">"></p>
 
+### Delete Node
 
+```yml
+docker stop creditcoin-validator; docker rm creditcoin-validator
+gluwa/creditcoin:2.222.2-testnet
+```
 
 #
 
