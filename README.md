@@ -84,7 +84,8 @@ docker logs ctc -f --since 10s
 ### Explorer
 Pilih itu
 
-<img width="839" alt="Screenshot_21" src="https://github.com/Megumiiiiii/credit-coin/assets/98658943/b11e7630-0e9c-4b46-b878-6ef38699fdb5">
+<img width="839" alt="Screenshot_21" src="https://github.com/Megumiiiiii/credit-coin/assets/98658943/5059d29e-a184-4989-8d8a-861bbed4e190">
+
 
 
 https://telemetry.creditcoin.network/#list/0xdd954cbf4000542ef1a15bca509cd89684330bee5e23766c527cdb0d7275e9c2
@@ -97,6 +98,7 @@ Jika namamu sudah ada disana = aman
 Generate 2 akun, lalu simpan pharse. Import ke [polkadot.js](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd)(extension)
 
 #### Skip jika menggunakan akun testnet, langsung [Stake]() saja
+
 ```yml
 docker exec -it creditcoin-validator creditcoin-cli new
 ```
@@ -106,9 +108,9 @@ Lalu kirim token dari faucet lewat [Polkadotjs](https://polkadot.js.org/apps/?rp
 ### Stake
 
 ```yml
-docker exec -it creditcoin-validator creditcoin-cli wizard -a 14000
+docker exec -it creditcoin-validator creditcoin-cli wizard -a 1000
 ```
-`14000` bisa diganti berapapun, itu nominal yang akan di stake
+`1000` bisa diganti berapapun, itu nominal yang akan di stake
 
 Untuk `stash` isi dengan pharse akun pertama, dan `controller` isi dengan pharse akun kedua
 
@@ -123,7 +125,7 @@ Output yang benar:
 >
 >🕹️  Controller account: 5E1tpiU3SnunxwbtvTc7U7gykNYspTZu9yqTcch2pHamAvw5
 >
->🪙  Amount to bond: 10000 CTC
+>🪙  Amount to bond: 1000 CTC
 >
 >🎁 Reward destination: Staked
 >
@@ -139,6 +141,12 @@ Output yang benar:
 Sudah, selanjutnya cek disini https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.testnet.creditcoin.network%2Fws#/staking Jika ada addressmu, tinggal menunggu aktif.
 
 ### Tambahan
+
+#### Command lain-lain
+
+```yml
+docker exec -it creditcoin-validator creditcoin-cli --help
+```
 
 #### Jika ingin memberi nama ke Validator
 
