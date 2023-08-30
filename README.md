@@ -99,14 +99,14 @@ Generate 2 akun, lalu simpan pharse. Import ke [polkadot.js](https://chrome.goog
 #### Skip jika menggunakan akun testnet, langsung [Stake](https://github.com/Megumiiiiii/credit-coin/blob/main/README.md#stake) saja
 
 ```yml
-docker exec -it creditcoin-validator creditcoin-cli new
+docker exec -it ctc creditcoin-cli new
 ```
 
 
 ### Stake
 
 ```yml
-docker exec -it creditcoin-validator creditcoin-cli wizard -a 1000
+docker exec -it ctc creditcoin-cli wizard -a 1000
 ```
 `1000` bisa diganti berapapun, itu nominal yang akan di stake
 
@@ -143,7 +143,7 @@ Sudah, selanjutnya cek disini [PolkadotJS](https://polkadot.js.org/apps/?rpc=wss
 #### Command lain-lain
 
 ```yml
-docker exec -it creditcoin-validator creditcoin-cli --help
+docker exec -it ctc creditcoin-cli --help
 ```
 
 #### Jika ingin memberi nama ke Validator
