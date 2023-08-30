@@ -87,7 +87,7 @@ Pilih itu
 
 
 
-https://telemetry.creditcoin.network/#list/0xdd954cbf4000542ef1a15bca509cd89684330bee5e23766c527cdb0d7275e9c2
+[Telemetry](https://telemetry.creditcoin.network/#list/0xdd954cbf4000542ef1a15bca509cd89684330bee5e23766c527cdb0d7275e9c2)
 
 Jika namamu sudah ada disana = aman
 
@@ -137,7 +137,7 @@ Output yang benar:
 >Continue? (y/n): y
 
 
-Sudah, selanjutnya cek disini https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.testnet.creditcoin.network%2Fws#/staking Jika ada addressmu, tinggal menunggu aktif.
+Sudah, selanjutnya cek disini [PolkadotJS](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.testnet.creditcoin.network%2Fws#/staking) Jika ada addressmu, tinggal menunggu aktif.
 
 ### Tambahan
 
