@@ -94,9 +94,10 @@ Jika namamu sudah ada disana = aman
 ## Aktifkan Validator
 
 ### Generate akun di vps atau gunakan akun testnetmu
-Generate 2 akun, lalu simpan pharse. Import ke [polkadot.js](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd)(extension)
 
 #### Skip jika menggunakan akun testnet, langsung [Stake](https://github.com/Megumiiiiii/credit-coin/blob/main/README.md#stake) saja
+
+Generate 2 akun, lalu simpan pharse. Import ke [Subwallet](https://chrome.google.com/webstore/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn)(extension)
 
 ```yml
 docker exec -it ctc creditcoin-cli new
@@ -136,7 +137,7 @@ Output yang benar:
 >Continue? (y/n): y
 
 
-Sudah, selanjutnya cek disini [PolkadotJS](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.testnet.creditcoin.network%2Fws#/staking) Jika ada addressmu, tinggal menunggu aktif.
+Sudah, selanjutnya cek disini [PolkadotJS](https://polkadot.js.org/apps/?rpc=wss://rpc.mainnet.creditcoin.network/ws#/staking) Connect ke Subwallet, jika ada addressmu, tinggal menunggu aktif.
 
 ### Tambahan
 
