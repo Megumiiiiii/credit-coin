@@ -55,10 +55,10 @@ sudo apt-get update && sudo apt install jq git && sudo apt install apt-transport
 
 ```yml
 docker run -d \
- --name creditcoin \
+ --name ctc \
  -p 30333:30333 \
  -v credot:/creditcoin-node/data  \
- gluwa/creditcoin:2.230.1-mainnet \
+ gluwa/creditcoin:latest \
  --name "namaValidator" \
  --telemetry-url "wss://telemetry.creditcoin.network/submit/ 0" \
  --public-addr "/dns4/IP.VPS.MU/tcp/30333" \
@@ -72,7 +72,13 @@ docker run -d \
 ### Cek Logs
 
 ```yml
-docker logs -f creditcoin-validator
+docker logs -f ctc
+```
+
+atau jika tidak ingin melihat logs terlalu banyak
+
+```yml
+docker logs ctc -f --since 10s
 ```
 
 ### Explorer
@@ -87,16 +93,17 @@ Jika namamu sudah ada disana = aman
 
 ## Aktifkan Validator
 
-### Generate akun di vps 
+### Generate akun di vps atau gunakan akun testnetmu
 Generate 2 akun, lalu simpan pharse. Import ke [polkadot.js](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd)(extension)
 
+#### Skip jika menggunakan akun testnet, langsung [Stake]() saja
 ```yml
 docker exec -it creditcoin-validator creditcoin-cli new
 ```
 
-Lalu kirim token dari faucet lewat [Polkadotjs](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.testnet.creditcoin.network%2Fws#/accounts) ke akun pertama, 14600 atau berapa terserah. Dan kirim ke akun kedua 100
+Lalu kirim token dari faucet lewat [Polkadotjs](https://polkadot.js.org/apps/?rpc=wss://rpc.mainnet.creditcoin.network/ws#/accounts) ke akun pertama, 14600 atau berapa terserah. Dan kirim ke akun kedua 100
 
-### Lanjut stake
+### Stake
 
 ```yml
 docker exec -it creditcoin-validator creditcoin-cli wizard -a 14000
@@ -135,14 +142,14 @@ Sudah, selanjutnya cek disini https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.
 
 #### Jika ingin memberi nama ke Validator
 
-1. Pergi ke [Polkadot](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.testnet.creditcoin.network%2Fws#/accounts)
+1. Pergi ke [Polkadot](https://polkadot.js.org/apps/?rpc=wss://rpc.mainnet.creditcoin.network/ws#/accounts)
 2. Pilih wallet `stash` mu
 3. Set identity dan atur display name
 <p align="left"><img height="auto" width="auto" src="https://github.com/Megumiiiiii/credit-coin/assets/98658943/dd2acb27-2eea-4076-8be6-b91e46e55e00"></p>
 
 #### Mengatur Comission Rate
 
-1. Pergi ke [Polkadot](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.testnet.creditcoin.network%2Fws#/staking/actions) bagian Staking -> Account
+1. Pergi ke [Polkadot](https://polkadot.js.org/apps/?rpc=wss://rpc.mainnet.creditcoin.network/ws#/staking/actions) bagian Staking -> Account
 2. Pilih Validator mu
 3. Klik validate dan atur mau berapa commision rate
 <p align="left"><img height="auto" width="auto" src="https://github.com/Megumiiiiii/credit-coin/assets/98658943/4cfd09de-2a26-438f-b4dd-d90d8546d7fb">"></p>
@@ -150,8 +157,8 @@ Sudah, selanjutnya cek disini https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.
 ### Delete Node
 
 ```yml
-docker stop creditcoin-validator; docker rm creditcoin-validator
-docker rmi gluwa/creditcoin:2.222.2-testnet
+docker stop ctc; docker rm ctc
+docker rmi gluwa/creditcoin:latest
 ```
 
 #
