@@ -61,18 +61,18 @@ mkdir -p /var/lib/credit
 
 ```yml
 docker run -d \
- --name creditcoin-validator \
+ --name creditcoin \
  -p 30333:30333 \
- -v credit:/creditcoin-node/data  \
+ -v credot:/creditcoin-node/data  \
  gluwa/creditcoin:2.230.1-mainnet \
  --name "namaValidator" \
  --telemetry-url "wss://telemetry.creditcoin.network/submit/ 0" \
  --public-addr "/dns4/IP.VPS.MU/tcp/30333" \
  --chain main \
- --bootnodes "/dns4/testnet-bootnode.creditcoin.network/tcp/30333/p2p/12D3KooWG3eEuYxo37LvU1g6SSESu4i9TQ8FrZmJcjvdys7eA3cH" "/dns4/testnet-bootnode2.creditcoin.network/tcp/30333/p2p/12D3KooWLq7wCMQS3qVMCNJ2Zm6rYuYh74cM99i9Tm8PMdqJPDzb" "/dns4/testnet-bootnode3.creditcoin.network/tcp/30333/p2p/12D3KooWAKUrvmchoLomoouoN1sKfF9kq8dYtCVFvtPuvqp7wFBS" \
+ --bootnodes "/dns4/bootnode.creditcoin.network/tcp/30333/p2p/12D3KooWAEgDL126EUFxFfdQKiUhmx3BJPdszQHu9PsYsLCuavhb" "/dns4/bootnode2.creditcoin.network/tcp/30333/p2p/12D3KooWSQye3uN3bZQRRC4oZbpiAZXkP2o5UZh6S8pqyh24bF3k" "/dns4/bootnode3.creditcoin.network/tcp/30333/p2p/12D3KooWFrsEZ2aSfiigAxs6ir2kU6en4BewotyCXPhrJ7T1AzjN" \
  --validator \
  --base-path /creditcoin-node/data \
- --port 30333 
+ --port 30333
 ```
 
 ### Cek Logs
