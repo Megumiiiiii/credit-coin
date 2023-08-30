@@ -50,12 +50,6 @@ sudo apt update; sudo apt upgrade -y
 sudo apt-get update && sudo apt install jq git && sudo apt install apt-transport-https ca-certificates curl software-properties-common -y && curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" && sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin && sudo apt-get install docker-compose-plugin
 ```
 
-### Buat folder untuk menampung data
-
-```yml
-mkdir -p /var/lib/credit
-```
-
 ### RUN!
 >> Ganti `namaValidator` dengan nama mu dan `IP.VPS.MU` dengan IP VPS mu.
 
@@ -87,7 +81,7 @@ Pilih itu
 <img width="839" alt="Screenshot_21" src="https://github.com/Megumiiiiii/credit-coin/assets/98658943/b11e7630-0e9c-4b46-b878-6ef38699fdb5">
 
 
-https://telemetry.creditcoin.network/#list/0xc2e43792c8acc075e564558f9a2184a0ffe9b0fd573969599eee9b647358c6cf
+https://telemetry.creditcoin.network/#list/0xdd954cbf4000542ef1a15bca509cd89684330bee5e23766c527cdb0d7275e9c2
 
 Jika namamu sudah ada disana = aman
 
