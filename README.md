@@ -68,7 +68,7 @@ docker run -d \
  --name "namaValidator" \
  --telemetry-url "wss://telemetry.creditcoin.network/submit/ 0" \
  --public-addr "/dns4/IP.VPS.MU/tcp/30333" \
- --chain mainnet \
+ --chain main \
  --bootnodes "/dns4/testnet-bootnode.creditcoin.network/tcp/30333/p2p/12D3KooWG3eEuYxo37LvU1g6SSESu4i9TQ8FrZmJcjvdys7eA3cH" "/dns4/testnet-bootnode2.creditcoin.network/tcp/30333/p2p/12D3KooWLq7wCMQS3qVMCNJ2Zm6rYuYh74cM99i9Tm8PMdqJPDzb" "/dns4/testnet-bootnode3.creditcoin.network/tcp/30333/p2p/12D3KooWAKUrvmchoLomoouoN1sKfF9kq8dYtCVFvtPuvqp7wFBS" \
  --validator \
  --base-path /creditcoin-node/data \
