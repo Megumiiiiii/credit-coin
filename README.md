@@ -102,7 +102,6 @@ Generate 2 akun, lalu simpan pharse. Import ke [polkadot.js](https://chrome.goog
 docker exec -it creditcoin-validator creditcoin-cli new
 ```
 
-Lalu kirim token dari faucet lewat [Polkadotjs](https://polkadot.js.org/apps/?rpc=wss://rpc.mainnet.creditcoin.network/ws#/accounts) ke akun pertama, 14600 atau berapa terserah. Dan kirim ke akun kedua 100
 
 ### Stake
 
