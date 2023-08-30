@@ -29,7 +29,6 @@
 - [Twitter Credit Coin](https://twitter.com/Creditcoin)
 - [Website Gluwa](https://gluwa.com)
 - [Website Credit Coin](https://creditcoin.org)
-- [Faucet](https://form.typeform.com/to/yGrtGCJO?ref=creditcoin.org)
 
 #
 
@@ -97,7 +96,7 @@ Jika namamu sudah ada disana = aman
 ### Generate akun di vps atau gunakan akun testnetmu
 Generate 2 akun, lalu simpan pharse. Import ke [polkadot.js](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd)(extension)
 
-#### Skip jika menggunakan akun testnet, langsung [Stake]() saja
+#### Skip jika menggunakan akun testnet, langsung [Stake](https://github.com/Megumiiiiii/credit-coin/blob/main/README.md#stake) saja
 
 ```yml
 docker exec -it creditcoin-validator creditcoin-cli new
