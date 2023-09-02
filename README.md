@@ -56,7 +56,7 @@ sudo apt-get update && sudo apt install jq git && sudo apt install apt-transport
 docker run -d \
  --name ctc \
  -p 30333:30333 \
- -v credot:/creditcoin-node/data  \
+ -v credit:/creditcoin-node/data  \
  gluwa/creditcoin:latest \
  --name "namaValidator" \
  --telemetry-url "wss://telemetry.creditcoin.network/submit/ 0" \
