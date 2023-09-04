@@ -95,7 +95,7 @@ Jika namamu sudah ada disana = aman
 
 ### Generate akun di vps atau gunakan akun testnetmu
 
-#### Skip jika menggunakan akun testnet, langsung [Stake](https://github.com/Megumiiiiii/credit-coin/blob/main/README.md#stake) saja
+#### Skip jika menggunakan akun testnet, langsung [Stake](https://github.com/Megumiiiiii/credit-coin#stake) saja
 
 Generate 2 akun, lalu simpan pharse. Import ke [Subwallet](https://chrome.google.com/webstore/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn)(extension)
 
